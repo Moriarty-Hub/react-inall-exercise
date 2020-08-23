@@ -1,9 +1,11 @@
 import React from 'react';
-import './home.less';
+import './home.css';
 
 const Home = () => {
   return (<div className="home">
-    This is home page
+    <div class="title">
+      <h1>在线实用工具</h1>
+    </div>
   </div>);
 };
 
